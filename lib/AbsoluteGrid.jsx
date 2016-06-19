@@ -16,6 +16,7 @@ export default class AbsoluteGrid extends React.Component {
       layoutWidth: 0,
       dragItemId: 0
     };
+    setTimeout(this.getDOMWidth, 66);
   }
 
   render() {
